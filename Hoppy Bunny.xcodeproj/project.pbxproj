@@ -15,6 +15,10 @@
 		5425DBBA1EFCE2C400D7619A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBB81EFCE2C400D7619A /* Main.storyboard */; };
 		5425DBBC1EFCE2C400D7619A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBBB1EFCE2C400D7619A /* Assets.xcassets */; };
 		5425DBBF1EFCE2C400D7619A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBBD1EFCE2C400D7619A /* LaunchScreen.storyboard */; };
+		5425DBC71EFCE6BE00D7619A /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBC61EFCE6BE00D7619A /* Hero.sks */; };
+		5425DBC91EFD771D00D7619A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */; };
+		5425DBCB1EFD7E9D00D7619A /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBCA1EFD7E9D00D7619A /* Obstacle.sks */; };
+		548FA7911EFD8E6C00B1FF8C /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FA7901EFD8E6C00B1FF8C /* MSButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		5425DBBB1EFCE2C400D7619A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5425DBBE1EFCE2C400D7619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5425DBC01EFCE2C400D7619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5425DBC61EFCE6BE00D7619A /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		5425DBCA1EFD7E9D00D7619A /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		548FA7901EFD8E6C00B1FF8C /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +70,12 @@
 			children = (
 				5425DBAE1EFCE2C400D7619A /* AppDelegate.swift */,
 				5425DBB01EFCE2C400D7619A /* GameScene.sks */,
+				548FA7901EFD8E6C00B1FF8C /* MSButtonNode.swift */,
+				5425DBCA1EFD7E9D00D7619A /* Obstacle.sks */,
+				5425DBC61EFCE6BE00D7619A /* Hero.sks */,
 				5425DBB21EFCE2C400D7619A /* Actions.sks */,
 				5425DBB41EFCE2C400D7619A /* GameScene.swift */,
+				5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */,
 				5425DBB61EFCE2C400D7619A /* GameViewController.swift */,
 				5425DBB81EFCE2C400D7619A /* Main.storyboard */,
 				5425DBBB1EFCE2C400D7619A /* Assets.xcassets */,
@@ -136,8 +148,10 @@
 				5425DBBA1EFCE2C400D7619A /* Main.storyboard in Resources */,
 				5425DBB11EFCE2C400D7619A /* GameScene.sks in Resources */,
 				5425DBBC1EFCE2C400D7619A /* Assets.xcassets in Resources */,
+				5425DBC71EFCE6BE00D7619A /* Hero.sks in Resources */,
 				5425DBBF1EFCE2C400D7619A /* LaunchScreen.storyboard in Resources */,
 				5425DBB31EFCE2C400D7619A /* Actions.sks in Resources */,
+				5425DBCB1EFD7E9D00D7619A /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,9 @@
 			files = (
 				5425DBB51EFCE2C400D7619A /* GameScene.swift in Sources */,
 				5425DBB71EFCE2C400D7619A /* GameViewController.swift in Sources */,
+				5425DBC91EFD771D00D7619A /* CGFloat+Extensions.swift in Sources */,
 				5425DBAF1EFCE2C400D7619A /* AppDelegate.swift in Sources */,
+				548FA7911EFD8E6C00B1FF8C /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +330,7 @@
 				5425DBC51EFCE2C400D7619A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
