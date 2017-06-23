@@ -19,6 +19,7 @@
 		5425DBC91EFD771D00D7619A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */; };
 		5425DBCB1EFD7E9D00D7619A /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5425DBCA1EFD7E9D00D7619A /* Obstacle.sks */; };
 		548FA7911EFD8E6C00B1FF8C /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FA7901EFD8E6C00B1FF8C /* MSButtonNode.swift */; };
+		548FA7931EFDB63100B1FF8C /* GameEffects.sks in Resources */ = {isa = PBXBuildFile; fileRef = 548FA7921EFDB63100B1FF8C /* GameEffects.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		5425DBCA1EFD7E9D00D7619A /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 		548FA7901EFD8E6C00B1FF8C /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		548FA7921EFDB63100B1FF8C /* GameEffects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameEffects.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				5425DBC61EFCE6BE00D7619A /* Hero.sks */,
 				5425DBB21EFCE2C400D7619A /* Actions.sks */,
 				5425DBB41EFCE2C400D7619A /* GameScene.swift */,
+				548FA7921EFDB63100B1FF8C /* GameEffects.sks */,
 				5425DBC81EFD771D00D7619A /* CGFloat+Extensions.swift */,
 				5425DBB61EFCE2C400D7619A /* GameViewController.swift */,
 				5425DBB81EFCE2C400D7619A /* Main.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548FA7931EFDB63100B1FF8C /* GameEffects.sks in Resources */,
 				5425DBBA1EFCE2C400D7619A /* Main.storyboard in Resources */,
 				5425DBB11EFCE2C400D7619A /* GameScene.sks in Resources */,
 				5425DBBC1EFCE2C400D7619A /* Assets.xcassets in Resources */,
